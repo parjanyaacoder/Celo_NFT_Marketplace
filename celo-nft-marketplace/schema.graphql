@@ -1,0 +1,8 @@
+type ListingEntity @entity {
+  id: ID!
+  price: BigInt!
+  seller: Bytes!
+  buyer: Bytes!
+  nftAddress: Bytes! # address
+  tokenId: BigInt! # uint256
+}
